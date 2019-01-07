@@ -1,0 +1,28 @@
+{
+    "id": "1",
+    "name" : "Ayibendenler",
+    "menu":  {
+        "coffees_menu": ["kahve1", "kahve2"],
+        "desserts_menu": ["dessert1", "dessert2"],
+        "dayspecial_menu": ["day_menu"]
+    },
+    "location": {
+        "lat": 1,
+        "long": 1
+    },
+    "reviews": [
+        {
+            "rating": 5,
+            "comment": "very nice"
+        },
+        {
+            "rating": 4,
+            "comment": "nice"
+        }
+    ],
+    "working_hours": {
+        "opening": "09:00",
+        "closing": "00:00"
+    },
+    "rating" : 4.5
+} 

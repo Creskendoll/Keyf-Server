@@ -1,0 +1,9 @@
+{
+    "id": "2",
+    "name" : "Name",
+    "lists": {
+        "favourite_shops" : ["ayibedenler", "nero"],
+        "favourite_coffees" : ["flat white"],
+        "wish_list" : ["w1", "w2", "w3"]
+    }
+} 
