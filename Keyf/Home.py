@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from Keyf import mongo
-from flask import Markup
+from flask import send_from_directory
 
 class Home(Resource):
     def get(self):
-        return Markup("<html><h1>Welcome to Keyf<h1></html>")
+        return send_from_directory('.', 'index.html')
