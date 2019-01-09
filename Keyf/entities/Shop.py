@@ -58,31 +58,4 @@ class CoffeeShop(BaseEntity.DBEntity):
         }
         return obj
 
-class Coffee (object):
-    def __init__(self,data={}):
-        if 'rating' in data:
-            self.rating = data['rating']
-        else:
-            self.rating = 0.0
-        if 'price' in data:
-            self.price = data['price']
-        else:
-            self.price = 0.0
-        if 'name' in data:
-            self.name = data['name']
-        else:
-            self.name = ""
-        if 'review'in data:
-            self.review = data['review']
-        else:
-            self.review = 0.0
-
-    def serialize(self):
-        obj = {
-            "rating": self.rating,
-            "price": self.price,
-            "name": self.name,
-            "review": self.review,
-        }       
-        return obj
 
