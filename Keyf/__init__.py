@@ -11,12 +11,11 @@ app = Flask(__name__, static_url_path='')
 app.config["MONGO_URI"] = conn_file.read()+"keyf?retryWrites=true"
 mongo = PyMongo(app)
 api = Api(app)
-from Keyf.providers import Users, CoffeeShops
-from Keyf import Home
+from Keyf.Services import *
 
-api.add_resource(Users.Users, '/users/<user_id>')
-api.add_resource(CoffeeShops.CoffeeShops, '/shops/<shop_id>')
-api.add_resource(Home.Home, '/')
+api.add_resource(UsersService, '/users/<user_id>')
+api.add_resource(CoffeeShopsService, '/shops/<shop_id>')
+api.add_resource(HomeService, '/')
 
 if __name__ == "__main__":
     pass

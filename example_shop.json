@@ -1,14 +1,14 @@
 {
-    "id": "1",
+    "id": 1,
     "name" : "Ayibendenler",
     "menu":  {
-        "coffees_menu": ["kahve1", "kahve2"],
+        "coffees_menu": [],
         "desserts_menu": ["dessert1", "dessert2"],
         "dayspecial_menu": ["day_menu"]
     },
     "location": {
-        "lat": 1,
-        "long": 1
+        "lat": 29.003695,
+        "long": 41.044618
     },
     "reviews": [
         {

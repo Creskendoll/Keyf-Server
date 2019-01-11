@@ -1,0 +1,7 @@
+{
+    "id": 1,
+    "name" : "Kahve",
+    "price": 12.0,
+    "reviews": [{ "comment": "this is a comment", "rating":2.9 }, { "comment": "2nd comment", "rating":2.0 }],
+    "rating" : 3.5
+}

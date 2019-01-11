@@ -1,6 +1,6 @@
-from Keyf.entities import BaseEntity
+from Keyf.Entities import DBEntity
 
-class CoffeeShop(BaseEntity.DBEntity):
+class CoffeeShop(DBEntity):
     def __init__(self, data={}):
         if 'id' in data:
             self.id = data['id']
@@ -57,5 +57,3 @@ class CoffeeShop(BaseEntity.DBEntity):
             "rating": self.rating
         }
         return obj
-
-

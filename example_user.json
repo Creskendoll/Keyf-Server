@@ -1,9 +1,10 @@
 {
-    "id": "2",
-    "name" : "Name",
+    "id": 1,
+    "name" : "Kenan",
     "lists": {
-        "favourite_shops" : ["ayibedenler", "nero"],
-        "favourite_coffees" : ["flat white"],
-        "wish_list" : ["w1", "w2", "w3"]
-    }
+        "favourite_shops" : [],
+        "favourite_drinks" : [],
+        "wish_list" : []
+    },
+    "photo" : "asd"
 } 

@@ -1,6 +1,6 @@
-from Keyf.entities import BaseEntity
+from Keyf.Entities import DBEntity
 
-class User(BaseEntity.DBEntity):
+class User(DBEntity):
     def __init__(self, data={}):
         if 'id' in data:
             self.id = data['id']

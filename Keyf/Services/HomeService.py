@@ -2,6 +2,6 @@ from flask_restful import Resource
 from Keyf import mongo
 from flask import send_from_directory
 
-class Home(Resource):
+class HomeService(Resource):
     def get(self):
-        return send_from_directory('.', 'index.html')
+        return send_from_directory('.', '../index.html')
