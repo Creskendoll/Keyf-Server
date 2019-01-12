@@ -10,7 +10,6 @@ class UsersService(Resource):
             cursor = users.find({})
         else:
             cursor = users.find({"id": id})
-
         user_list = [User(data=user).serialize() for user in cursor]
         
         return { "users": user_list }
@@ -18,8 +17,8 @@ class UsersService(Resource):
     def put(self, user_id):
         users = mongo.db.users
         user = User(data=request.form.to_dict())
-        inserted_id = str(users.insert_one(user.serialize()).inserted_id)
-        return { "user_id": inserted_id } 
+        users.replace_one(user.serialize())
+        return { "user_id": user.id } 
     def update(self):
         pass
     def delete(self):

@@ -4,4 +4,4 @@ from flask import send_from_directory
 
 class HomeService(Resource):
     def get(self):
-        return send_from_directory('.', '../index.html')
+        return send_from_directory('.', 'index.html')

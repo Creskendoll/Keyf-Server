@@ -6,6 +6,10 @@ class Drink (DBEntity):
             self.id = data['id']
         else:
             self.id = -1
+        if 'photo' in data:
+            self.photo = data['photo']
+        else:
+            self.photo = ""
         if 'rating' in data:
             self.rating = data['rating']
         else:
@@ -26,6 +30,7 @@ class Drink (DBEntity):
     def serialize(self):
         obj = {
             "id": self.id,
+            "photo": self.photo,
             "rating": self.rating,
             "price": self.price,
             "name": self.name,

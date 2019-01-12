@@ -9,17 +9,17 @@ class CoffeeShopsService(Resource):
         if shop_id == "-1":
             cursor = coffeshops.find({})
         else:
-            cursor = coffeshops.find({"id": int(shop_id)})    
-        shops_list = [CoffeeShop(data=shop).serialize() for shop in cursor] 
+            cursor = coffeshops.find({"id": shop_id})    
+        shops_list = [CoffeeShop(data=shop).serialize() for shop in cursor]
+
         return {'shops': shops_list}
 
     def put(self, shop_id):
         coffeshops = mongo.db.coffee_shops
-        # print(request.form.to_dict())
         shop = CoffeeShop(data=request.form.to_dict())
-        inserted_id = str(coffeshops.insert_one(shop.serialize()).inserted_id)
+        coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True)
 
-        return { "shop_id": inserted_id }
+        return { "shop_id": shop.id }
 
     def post(self):
         pass
