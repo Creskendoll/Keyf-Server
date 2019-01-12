@@ -17,9 +17,12 @@ class CoffeeShopsService(Resource):
     def put(self, shop_id):
         coffeshops = mongo.db.coffee_shops
         shop = CoffeeShop(data=request.form.to_dict())
-        coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True)
+        result = coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True).upserted_id
 
-        return { "shop_id": shop.id }
+        if result is None:
+            return { "shop_id": shop.id, "operation_type": "replace" }
+        else:
+            return { "shop_id": shop.id, "operation_type": "insert" }
 
     def post(self):
         pass

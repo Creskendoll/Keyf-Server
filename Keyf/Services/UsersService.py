@@ -17,8 +17,13 @@ class UsersService(Resource):
     def put(self, user_id):
         users = mongo.db.users
         user = User(data=request.form.to_dict())
-        users.replace_one(user.serialize())
-        return { "user_id": user.id } 
+        result = users.replace_one({"id":user.id}, user.serialize(), upsert=True).upserted_id
+        
+        if result is None:
+            return { "user_id": user.id, "operation_type": "replace" }
+        else:
+            return { "user_id": user.id, "operation_type": "insert" }
+
     def update(self):
         pass
     def delete(self):

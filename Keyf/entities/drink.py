@@ -6,6 +6,10 @@ class Drink (DBEntity):
             self.id = data['id']
         else:
             self.id = -1
+        if 'name' in data:
+            self.name = data['name']
+        else:
+            self.name = ""
         if 'photo' in data:
             self.photo = data['photo']
         else:
@@ -18,10 +22,6 @@ class Drink (DBEntity):
             self.price = data['price']
         else:
             self.price = 0.0
-        if 'name' in data:
-            self.name = data['name']
-        else:
-            self.name = ""
         if 'reviews' in data:
             self.reviews = data['reviews']
         else:

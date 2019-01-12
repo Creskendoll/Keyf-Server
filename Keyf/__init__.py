@@ -15,6 +15,7 @@ from Keyf.Services import *
 
 api.add_resource(UsersService, '/users/<user_id>')
 api.add_resource(CoffeeShopsService, '/shops/<shop_id>')
+api.add_resource(DrinksService, '/drinks/<drink_id>')
 api.add_resource(HomeService, '/')
 
 if __name__ == "__main__":
