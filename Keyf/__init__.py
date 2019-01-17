@@ -19,5 +19,4 @@ api.add_resource(DrinksService, '/drinks/<drink_id>')
 api.add_resource(HomeService, '/')
 
 if __name__ == "__main__":
-    pass
-    #app.run(debug=True)
+    app.run(debug=True)
