@@ -1,6 +1,7 @@
 {
     "id": 1,
-    "name" : "Ayibendenler",
+    "name": "Ayıbedenler",
+    "photo": "https://media-cdn.tripadvisor.com/media/photo-s/0d/ad/84/16/french-coffee-shop.jpg",
     "menu":  {
         "coffees_menu": [],
         "desserts_menu": ["dessert1", "dessert2"],

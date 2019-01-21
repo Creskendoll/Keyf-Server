@@ -17,7 +17,10 @@ class CoffeeShopsService(Resource):
     def put(self, shop_id):
         coffeshops = mongo.db.coffee_shops
         shop = CoffeeShop(data=request.form.to_dict())
-        result = coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True).upserted_id
+        try:
+            result = coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True).upserted_id
+        except:
+            print("Error connecting to DB")
 
         if result is None:
             return { "shop_id": shop.id, "operation_type": "replace" }

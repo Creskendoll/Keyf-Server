@@ -13,7 +13,7 @@ class CoffeeShop(DBEntity):
         if 'photo' in data:
             self.photo = data['photo']
         else:
-            self.photo = -1
+            self.photo = "http://savoryconceptsllc.com/wp-content/uploads/2016/05/question-mark-png-5a381257a89243.6425987715136241516905-1.jpg"
         if 'menu' in data:
             self.menu = data['menu']
         else:
