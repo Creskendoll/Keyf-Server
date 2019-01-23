@@ -21,9 +21,10 @@ And optionally development mode where the changes on the code are watched:
 
 ## Start
 Finally the program can be started by running either:  
-```flask run```
-Or if that doesn't work:
-```python -m flask run```
+```flask run```  
+Or if that doesn't work:  
+```python -m flask run```  
+In order to run the server on local lan you can pass the option ```--host=0.0.0.0```  
 
 There might be additional packages required by the project so install them as well. 
 
