@@ -1,0 +1,11 @@
+{
+    "ZOMATO_API_KEY" : "ca6f50344265b67be15e3f89b309d6c7",
+    "BASE_URL" : "https://developers.zomato.com/api/v2.1/",
+    "search_options" : {
+        "lat" : 41.0439981,
+        "lon" : 28.9844904,
+        "radius" : 1000,
+        "count" : 200,
+        "category": "6" 
+    }
+} 
