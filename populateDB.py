@@ -26,7 +26,7 @@ with io.open('example_shop.json', mode='r', encoding='utf-8') as shop_file:
 
             update_result = shops.replace_one({"id": shop_obj.id},shop_obj.serialize(), upsert=True).upserted_id
             if update_result is None:
-                print("Shop updated with _id:", shop_obj.id)
+                print("Shop updated with id:", shop_obj.id)
             else:
                 print("Shop inserted with _id:", update_result)
 

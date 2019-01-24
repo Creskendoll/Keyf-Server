@@ -1,0 +1,516 @@
+{
+    "results_found": 5691,
+    "results_start": 0,
+    "results_shown": 10,
+    "restaurants": [{
+        "restaurant": {
+            "R": {
+                "res_id": 18140481
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "18140481",
+            "name": "Mendel's",
+            "url": "https://www.zomato.com/istanbul/mendels-akaretler-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Sinanpa\u015fa Mahallesi, \u015eair Nedim Caddesi, No 18, Be\u015fikta\u015f, \u0130stanbul",
+                "locality": "Akaretler",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0427740547",
+                "longitude": "29.0025530756",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Akaretler, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Desserts, Cafe",
+            "average_cost_for_two": 65,
+            "price_range": 3,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/res_imagery/18140481_RESTAURANT_32e1d82a79372bac3df3872123b08339.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.7",
+                "rating_text": "Excellent",
+                "rating_color": "3F7E00",
+                "votes": "1243"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/mendels-akaretler-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/mendels-akaretler-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/18140481_RESTAURANT_32e1d82a79372bac3df3872123b08339.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/18140481",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/mendels-akaretler-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5902117
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5902117",
+            "name": "Valonia",
+            "url": "https://www.zomato.com/istanbul/valonia-be\u015fikta\u015f-merkez-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "T\u00fcrkali Mahallesi, Ihlamurdere Caddesi, No 40/B, Be\u015fikta\u015f, \u0130stanbul",
+                "locality": "Be\u015fikta\u015f Merkez",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0443845756",
+                "longitude": "29.0027931333",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Be\u015fikta\u015f Merkez, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Restaurant Cafe, Desserts",
+            "average_cost_for_two": 90,
+            "price_range": 3,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "",
+            "user_rating": {
+                "aggregate_rating": "4.3",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1735"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/valonia-be\u015fikta\u015f-merkez-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/valonia-be\u015fikta\u015f-merkez-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5902117",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/valonia-be\u015fikta\u015f-merkez-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5916870
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5916870",
+            "name": "Kukis",
+            "url": "https://www.zomato.com/istanbul/kukis-ac\u0131badem-merkez-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Ac\u0131badem Mahallesi, Ac\u0131badem Caddesi, No 154/A, \u00dcsk\u00fcdar, \u0130stanbul",
+                "locality": "Ac\u0131badem Merkez",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0078841783",
+                "longitude": "29.0495882928",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Ac\u0131badem Merkez, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Patisserie, Cafe, Turkish",
+            "average_cost_for_two": 45,
+            "price_range": 2,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/res_imagery/5916870_RESTAURANT_42c4fd4ed5bbfbde64ca38a659480e3a.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.9",
+                "rating_text": "Excellent",
+                "rating_color": "3F7E00",
+                "votes": "779"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/kukis-ac\u0131badem-merkez-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/kukis-ac\u0131badem-merkez-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/5916870_RESTAURANT_42c4fd4ed5bbfbde64ca38a659480e3a.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5916870",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/kukis-ac\u0131badem-merkez-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 18334399
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "18334399",
+            "name": "b.blokbakery",
+            "url": "https://www.zomato.com/istanbul/b-blokbakery-akaretler-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Vi\u015fnezade Mahallesi, \u015eair Nedim Caddesi, No 35/A, Be\u015fikta\u015f, Istanbul",
+                "locality": "Akaretler",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0437215586",
+                "longitude": "29.0019552782",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Akaretler, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Cafe, Bakery, Izgara",
+            "average_cost_for_two": 50,
+            "price_range": 2,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/pictures/chains/9/18334399/8cc70a90f1e9a11d9177973030985669.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.8",
+                "rating_text": "Excellent",
+                "rating_color": "3F7E00",
+                "votes": "503"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/b-blokbakery-akaretler-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/b-blokbakery-akaretler-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/pictures/chains/9/18334399/8cc70a90f1e9a11d9177973030985669.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/18334399",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/b-blokbakery-akaretler-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5915792
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5915792",
+            "name": "Lokma",
+            "url": "https://www.zomato.com/istanbul/lokma-rumeli-hisar\u0131-merkez-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Rumelihisar\u0131 Mahallesi, Yahya Kemal Caddesi, No 12, Rumeli Hisar\u0131, \u0130stanbul",
+                "locality": "Rumeli Hisar\u0131 Merkez",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0870814904",
+                "longitude": "29.0568476915",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Rumeli Hisar\u0131 Merkez, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Restaurant Cafe",
+            "average_cost_for_two": 150,
+            "price_range": 4,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/res_imagery/5915792_RESTAURANT_4b351fbb708039db0096c0e245c91752_c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.2",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1467"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/lokma-rumeli-hisar\u0131-merkez-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/lokma-rumeli-hisar\u0131-merkez-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/5915792_RESTAURANT_4b351fbb708039db0096c0e245c91752_c.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5915792",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/lokma-rumeli-hisar\u0131-merkez-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5908736
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5908736",
+            "name": "BigChefs",
+            "url": "https://www.zomato.com/istanbul/bigchefs-tarabya-merkez-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Tarabya Mahallesi, Yenik\u00f6y Tarabya Caddesi, No 80, Sar\u0131yer, \u0130stanbul",
+                "locality": "Tarabya Merkez",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.1365690857",
+                "longitude": "29.0586384013",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Tarabya Merkez, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "World Cuisine",
+            "average_cost_for_two": 200,
+            "price_range": 4,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/pictures/chains/8/5905758/a13566a16366a7490a87147fa8eb746c.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.1",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1211"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/bigchefs-tarabya-merkez-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/bigchefs-tarabya-merkez-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/pictures/chains/8/5905758/a13566a16366a7490a87147fa8eb746c.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5908736",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/bigchefs-tarabya-merkez-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5906121
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5906121",
+            "name": "Happy Moon's",
+            "url": "https://www.zomato.com/istanbul/happy-moons-kad\u0131k\u00f6y-merkez-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Cafera\u011fa Mahallesi, Bahariye Caddesi, Nazmi Bey Sokak, No 5/C, Kad\u0131k\u00f6y, \u0130stanbul",
+                "locality": "Kad\u0131k\u00f6y Merkez",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "40.9877560089",
+                "longitude": "29.0282680839",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Kad\u0131k\u00f6y Merkez, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "World Cuisine",
+            "average_cost_for_two": 170,
+            "price_range": 4,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/pictures/chains/8/17872348/349752aeb68f4c7a74cb8138ea975401.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.3",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1185"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/happy-moons-kad\u0131k\u00f6y-merkez-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/happy-moons-kad\u0131k\u00f6y-merkez-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/pictures/chains/8/17872348/349752aeb68f4c7a74cb8138ea975401.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5906121",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/happy-moons-kad\u0131k\u00f6y-merkez-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5923535
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5923535",
+            "name": "Boon Cafe & Restaurant",
+            "url": "https://www.zomato.com/istanbul/boon-cafe-restaurant-\u00e7engelk\u00f6y-merkez-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "\u00c7engelk\u00f6y Mahallesi, \u00c7engelk\u00f6y Caddesi, Kara Sokak, No 1/A, \u00dcsk\u00fcdar, \u0130stanbul",
+                "locality": "\u00c7engelk\u00f6y Merkez",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0507167850",
+                "longitude": "29.0526228771",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "\u00c7engelk\u00f6y Merkez, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Restaurant Cafe",
+            "average_cost_for_two": 120,
+            "price_range": 4,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/res_imagery/5923535_RESTAURANT_068e15ca085af7ab94626c5403ed3b62.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.2",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1076"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/boon-cafe-restaurant-\u00e7engelk\u00f6y-merkez-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/boon-cafe-restaurant-\u00e7engelk\u00f6y-merkez-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/5923535_RESTAURANT_068e15ca085af7ab94626c5403ed3b62.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5923535",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/boon-cafe-restaurant-\u00e7engelk\u00f6y-merkez-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 18514851
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "18514851",
+            "name": "Willy Wonka Chocolate ",
+            "url": "https://www.zomato.com/istanbul/willy-wonka-chocolate-galata-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "M\u00fceyyetzade Mahallesi, Tatar Beyi Sokak, No 24, Beyo\u011flu, \u0130stanbul",
+                "locality": "Galata",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0261529673",
+                "longitude": "28.9757625014",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Galata, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "Desserts, Cafe",
+            "average_cost_for_two": 55,
+            "price_range": 2,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/reviews_photos/54c/8ba70d967e3a93ad4fd49fc4ea5ed54c_1538590779.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.2",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "552"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/willy-wonka-chocolate-galata-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/willy-wonka-chocolate-galata-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/reviews_photos/54c/8ba70d967e3a93ad4fd49fc4ea5ed54c_1538590779.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/18514851",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/willy-wonka-chocolate-galata-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }, {
+        "restaurant": {
+            "R": {
+                "res_id": 5908749
+            },
+            "apikey": "ca6f50344265b67be15e3f89b309d6c7",
+            "id": "5908749",
+            "name": "Ceviz A\u011fac\u0131",
+            "url": "https://www.zomato.com/istanbul/ceviz-a\u011fac\u0131-1-ko\u015fuyolu-istanbul?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "location": {
+                "address": "Ko\u015fuyolu Mahallesi, Muhittin \u00dcst\u00fcnda\u011f Caddesi, No 85, Kad\u0131k\u00f6y, \u0130stanbul",
+                "locality": "Ko\u015fuyolu",
+                "city": "\u0130stanbul",
+                "city_id": 59,
+                "latitude": "41.0098968089",
+                "longitude": "29.0409401804",
+                "zipcode": "",
+                "country_id": 208,
+                "locality_verbose": "Ko\u015fuyolu, \u0130stanbul"
+            },
+            "switch_to_order_menu": 0,
+            "cuisines": "World Cuisine, Patisserie, Cafe",
+            "average_cost_for_two": 150,
+            "price_range": 4,
+            "currency": "TL",
+            "offers": [],
+            "opentable_support": 0,
+            "is_zomato_book_res": 0,
+            "mezzo_provider": "OTHER",
+            "is_book_form_web_view": 0,
+            "book_form_web_view_url": "",
+            "book_again_url": "",
+            "thumb": "https://b.zmtcdn.com/data/res_imagery/5908749_RESTAURANT_2a1f57b7f2d3297cf9f11e075e41f0f0.jpg?fit=around%7C200%3A200&crop=200%3A200%3B%2A%2C%2A",
+            "user_rating": {
+                "aggregate_rating": "4.4",
+                "rating_text": "Very Good",
+                "rating_color": "5BA829",
+                "votes": "1615"
+            },
+            "photos_url": "https://www.zomato.com/istanbul/ceviz-a\u011fac\u0131-1-ko\u015fuyolu-istanbul/photos?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1#tabtop",
+            "menu_url": "https://www.zomato.com/istanbul/ceviz-a\u011fac\u0131-1-ko\u015fuyolu-istanbul/menu?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1&openSwipeBox=menu&showMinimal=1#tabtop",
+            "featured_image": "https://b.zmtcdn.com/data/res_imagery/5908749_RESTAURANT_2a1f57b7f2d3297cf9f11e075e41f0f0.jpg",
+            "has_online_delivery": 0,
+            "is_delivering_now": 0,
+            "include_bogo_offers": true,
+            "deeplink": "zomato://restaurant/5908749",
+            "is_table_reservation_supported": 0,
+            "has_table_booking": 0,
+            "events_url": "https://www.zomato.com/istanbul/ceviz-a\u011fac\u0131-1-ko\u015fuyolu-istanbul/events#tabtop?utm_source=api_basic_user&utm_medium=api&utm_campaign=v2.1",
+            "establishment_types": []
+        }
+    }]
+}
