@@ -17,15 +17,22 @@ class CoffeeShopsService(Resource):
     def put(self, shop_id):
         coffeshops = mongo.db.coffee_shops
         shop = CoffeeShop(data=request.form.to_dict())
+        result = None
         try:
-            result = coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True).upserted_id
+            if shop.id == -1:
+                id_result = list(shop_db.find({}, {"id": 1}).sort({id:-1}).limit(1))
+                max_id = id_result[0].id
+                shop.id = max_id + 1
+                result = coffeshops.insert_one(shop.serialize()).inserted_id
+            else:
+                result = coffeshops.replace_one({"id": shop.id}, shop.serialize(), upsert=True).upserted_id
         except:
             print("Error connecting to DB")
 
-        if result is None:
-            return { "shop_id": shop.id, "operation_type": "replace" }
+        if shop.id == -1:
+            return { "shop_id": str(result), "operation_type": "insert" }
         else:
-            return { "shop_id": shop.id, "operation_type": "insert" }
+            return { "shop_id": str(result), "operation_type": "replace" }
 
     def post(self):
         pass

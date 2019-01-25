@@ -10,10 +10,10 @@ class CoffeeShop(DBEntity):
             self.name = data['name']
         else:
             self.name = ""
-        if 'photo' in data:
-            self.photo = data['photo']
+        if 'image' in data:
+            self.image = data['image']
         else:
-            self.photo = "http://savoryconceptsllc.com/wp-content/uploads/2016/05/question-mark-png-5a381257a89243.6425987715136241516905-1.jpg"
+            self.image = "http://savoryconceptsllc.com/wp-content/uploads/2016/05/question-mark-png-5a381257a89243.6425987715136241516905-1.jpg"
         if 'menu' in data:
             self.menu = data['menu']
         else:
@@ -49,7 +49,7 @@ class CoffeeShop(DBEntity):
         obj = {
             "id": self.id,
             "name": self.name,
-            "photo": self.photo,
+            "image": self.image,
             "menu": self.menu, 
             "location": self.location,
             "reviews": self.reviews,

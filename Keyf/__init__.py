@@ -12,6 +12,7 @@ app.config["MONGO_URI"] = conn_file.read()+"keyf?retryWrites=true"
 mongo = PyMongo(app)
 api = Api(app)
 from Keyf.Services import *
+from Keyf.Entities import *
 
 api.add_resource(UsersService, '/users/<user_id>')
 api.add_resource(CoffeeShopsService, '/shops/<shop_id>')
@@ -19,4 +20,5 @@ api.add_resource(DrinksService, '/drinks/<drink_id>')
 api.add_resource(HomeService, '/')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # app.run(debug=True)
+    pass

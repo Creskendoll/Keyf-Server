@@ -1,3 +1,9 @@
+import os,sys,inspect
+currentdir = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe())))
+parentdir = os.path.dirname(currentdir)
+sys.path.insert(0,parentdir) 
+from Keyf.Entities.Shop import CoffeeShop
+
 class ZomatoShop(object):
     """
         name: string
@@ -20,4 +26,10 @@ class ZomatoShop(object):
         self.image = shop['featured_image']
     
     def toKeyfEntity(self):
-        pass
+        keyf_data = {
+            'name': self.name,
+            'image': self.image,
+            'location': self.location,
+            'rating': float(self.rating)
+        }
+        return CoffeeShop(data=keyf_data)
