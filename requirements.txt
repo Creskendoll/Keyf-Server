@@ -1,4 +1,4 @@
-flask
-flask_pymongo
-flask_restful
+Flask
+Flask-PyMongo
+Flask-RESTful
 dnspython
