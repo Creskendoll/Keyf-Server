@@ -3,7 +3,7 @@ from flask_pymongo import PyMongo
 from flask_restful import Api
 app = Flask(__name__, static_url_path='', static_folder='public/site',)
 
-conn_str_file = "connection_string.txt"
+conn_str_file = "../connection_string.txt"
 try:
     conn_file = open(conn_str_file, 'r')
     conn_str = conn_file.read()
