@@ -1,9 +1,9 @@
 from flask_restful import Resource
 from Keyf import mongo
 from flask import request
-from Keyf.Entities import CoffeeShop
+from Keyf.Entities import Shop
 
-class CoffeeShopsService(Resource):
+class ShopService(Resource):
     def get(self, shop_id):      
         """
         Returns the shop entry with id of shop_id.
@@ -17,13 +17,17 @@ class CoffeeShopsService(Resource):
         if shop_id == "-1":
             # Get all shops
             cursor = coffeshops.find({})
+            # cast the data to CoffeeShop class
+            shops_list = [Shop(data=shop).serialize() for shop in cursor]
+
+            return {'shops': shops_list}
         else:
             # Get shops with id of shop_id
-            cursor = coffeshops.find({"id": shop_id})
-        # cast the data to CoffeeShop class
-        shops_list = [CoffeeShop(data=shop).serialize() for shop in cursor]
-
-        return {'shops': shops_list}
+            cursor = coffeshops.find_one({"id": int(shop_id)})
+            if cursor is not None:
+                return Shop(cursor).serialize()
+            # TODO: Return not found
+            return {}
 
     def put(self, shop_id):
         """
@@ -39,7 +43,7 @@ class CoffeeShopsService(Resource):
         shops_db = mongo.db.coffee_shops
         # The sent data is held in request.form
         # Cast the data to CoffeeShop object
-        shop = CoffeeShop(data=request.form.to_dict())
+        shop = Shop(data=request.form.to_dict())
         result = None
         try:
             if shop.id == -1:

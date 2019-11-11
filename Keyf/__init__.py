@@ -1,9 +1,17 @@
 from flask import Flask
 from flask_pymongo import PyMongo
 from flask_restful import Api
+from os import getcwd, chdir
+from os.path import abspath
+
 app = Flask(__name__, static_url_path='', static_folder='public/site',)
 
-conn_str_file = "../connection_string.txt"
+# Change working directory when testing
+# TODO: Test on windows
+if getcwd().split("/")[-1] == "Keyf":
+    chdir("..")
+
+conn_str_file = "connection_string.txt"
 try:
     conn_file = open(conn_str_file, 'r')
     conn_str = conn_file.read()
@@ -19,6 +27,6 @@ from Keyf.Services import *
 from Keyf.Entities import *
 
 api.add_resource(UsersService, '/users/<user_id>')
-api.add_resource(CoffeeShopsService, '/shops/<shop_id>')
+api.add_resource(ShopService, '/shops/<shop_id>')
 api.add_resource(DrinksService, '/drinks/<drink_id>')
 api.add_resource(HomeService, '/')

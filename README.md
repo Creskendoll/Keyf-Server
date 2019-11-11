@@ -3,7 +3,7 @@
 Make sure you have [Python3]([https://link](https://www.python.org/downloads/)) and [pip](https://pypi.org/) installed.
 
 ## Pre-Req
-Create a file named *connection_string.txt* in the root folder where you'll store your mongoDB connection string in the following form:
+If doesn't exist create a file named *connection_string.txt* in the root folder where you'll store your mongoDB connection string in the following form:
 
 - *mongodb+srv://{USER}:{PASSWORD}@keyfcluster-dwn2y.mongodb.net/keyf?retryWrites=true*
 
@@ -32,6 +32,7 @@ There might be additional packages required by the project so install them as we
 ## Additional Info
 ```populateDB.py``` writes the .json files to the DB. Edit those files to save placeholder data to the DB.
 
+
 ## Project Overview
 ### Entities
 The models of the objects in the DB are defined as Entities under the Entities folder. Every model has a serialize function derived from the BaseEntity.
@@ -42,3 +43,13 @@ The `__init__.py` files inside sub folders are required for packaging purposes s
 ### Front End
 Files relevant to front end can be found inside `public/site`. 
 Currently the index.html file is served upon a get request to the root domain.
+
+# Testing
+## Basics
+In order to test the project first you have to `cd` into the `Keyf/` sub folder. All the tests should be placed under the `tests/` folder and be named as `test_foo.py`. Pytest will automatically look for those files and run them. You can run all the tests by running:
+- `pytest -v`
+
+If that doesn't work, you can try:
+- `python -m pytest -v`
+
+To display system out, append `s` to the argument; `pytest -vs`. 

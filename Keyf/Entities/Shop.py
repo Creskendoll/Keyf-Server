@@ -1,6 +1,6 @@
 from Keyf.Entities import DBEntity
 
-class CoffeeShop(DBEntity):
+class Shop(DBEntity):
     def __init__(self, data={}):
         if 'id' in data:
             self.id = data['id']

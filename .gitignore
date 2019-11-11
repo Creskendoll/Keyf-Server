@@ -23,4 +23,4 @@ htmlcov/
 .coverage.*
 *,cover
 
-connection_string.txt
+connection_string_old.txt
