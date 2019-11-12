@@ -35,7 +35,7 @@ def test_shop_zero(client):
 def test_shop_negative(client):
     "Test negative numbers"
     # TODO
-    pass
+    assert False
 
 def test_shop_id(client):
     """Test shop ID"""
@@ -50,9 +50,9 @@ def test_shop_id(client):
 def test_add_shop(client):
     """Test adding new shop"""
     # TODO: create an arbitrary shop
-    pass 
+    assert False
 
 def test_delete_shop(client):
     """Test deleting a shop"""
     # TODO
-    pass
+    assert False

@@ -3,13 +3,9 @@ from flask_pymongo import PyMongo
 from flask_restful import Api
 from os import getcwd, chdir
 from os.path import abspath
+from platform import system
 
 app = Flask(__name__, static_url_path='', static_folder='public/site',)
-
-# Change working directory when testing
-# TODO: Test on windows
-if getcwd().split("/")[-1] == "Keyf":
-    chdir("..")
 
 conn_str_file = "connection_string.txt"
 try:

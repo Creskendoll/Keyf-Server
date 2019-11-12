@@ -46,7 +46,7 @@ Currently the index.html file is served upon a get request to the root domain.
 
 # Testing
 ## Basics
-In order to test the project first you have to `cd` into the `Keyf/` sub folder. All the tests should be placed under the `tests/` folder and be named as `test_foo.py`. Pytest will automatically look for those files and run them. You can run all the tests by running:
+All the tests should be placed under the `tests/` folder and be named as `test_foo.py`. Pytest will automatically look for those files and run them. You can run all the tests by running:
 - `pytest -v`
 
 If that doesn't work, you can try:
