@@ -81,7 +81,16 @@ class ShopService(Resource):
             Update an existing entry with the data in body.
 
         """
-        pass
+        shops_db = mongo.db.coffee_shops
+
+        shop = Shop(data=request.form.to_dict())
+        print("Replacing shop with name:", shop.name)
+
+        result = shops_db.replace_one(
+            {"id": shop.id}, shop.serialize(), upsert=True).upserted_id
+
+        return {"shop_id": str(result), "operation_type": "replace"}
+
 
     def delete(self, shop_id):
         pass
