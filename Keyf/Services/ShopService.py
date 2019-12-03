@@ -69,7 +69,7 @@ class ShopService(Resource):
                 result = shops_db.replace_one(
                     {"id": shop.id}, shop.serialize(), upsert=True).upserted_id
         except Exception as e:
-            print("Error in CoffeeShopService PUT with error:", e)
+            print("Error in CoffeeShopService PUT", e)
 
         if shop.id == -1:
             return {"shop_id": str(result), "operation_type": "insert"}
