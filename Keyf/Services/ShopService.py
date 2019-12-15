@@ -85,4 +85,18 @@ class ShopService(Resource):
         return {"shop_id": str(result), "operation_type": "replace"}
 
     def delete(self, shop_id):
-        pass
+        """
+            Delete an entry, 404 if shop doesn't exist
+        """
+        shops_db = mongo.db.coffee_shops
+
+        try:
+            res = shops_db.find({"id": int(shop_id)})
+            if len(list(res)) == 0:
+                return abort(404)
+            shops_db.delete_one({"id": int(shop_id)})
+        except Exception as e:
+            print("Error in DELETE shop", e)
+            return str(e), 500
+
+        return "OK", 200

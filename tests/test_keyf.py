@@ -59,7 +59,7 @@ def test_shop_id(client):
 
 def test_add_shop(client: FlaskClient):
     """Test adding new shop"""
-    shop = createShop(-1)
+    shop = createShop(1)
     resp = client.put("/shops/0", data=json.dumps(shop.serialize()))
 
     # Ideally we should check the shop we've added to the shop
@@ -81,5 +81,13 @@ def test_replace_shop(client: FlaskClient):
 
 def test_delete_shop(client):
     """Test deleting a shop"""
+    resp = client.delete("/shops/0")
     # TODO
-    assert False
+    assert b"OK" in resp.data
+
+
+def test_delete_non_existent(client):
+    """Test deleting a shop that doesn't exist"""
+    resp = client.delete("/shops/999")
+ 
+    assert resp.status_code == 404
