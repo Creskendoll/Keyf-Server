@@ -1,6 +1,6 @@
 from flask_restful import Resource
 from Keyf import mongo
-from flask import request
+from flask import request, abort
 from Keyf.Entities import Shop
 
 
@@ -27,8 +27,7 @@ class ShopService(Resource):
             cursor = coffeshops.find_one({"id": int(shop_id)})
             if cursor is not None:
                 return Shop(cursor).serialize()
-            # TODO: Return not found
-            return {}
+            return abort(404)  # Not found
 
     def put(self, shop_id):
         """
