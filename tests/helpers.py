@@ -1,4 +1,4 @@
-from Keyf.Entities import Shop, MenuItem, Review
+from Keyf.Entities import Shop, MenuItem, Review, User
 
 
 def createShop(id):
@@ -15,3 +15,18 @@ def createShop(id):
         "rating": 4.3,
     }
     return Shop(data)
+
+
+def createUser(id):
+    data = {
+        "id": id,
+        "name": "Kenan",
+        "photo": "http://1.bp.blogspot.com/_Db02u7w1G7A/TJE-M2XO1iI/AAAAAAAADdE/oUUo-FJxOec/s1600/angry-dog1.jpg",
+        "lists": {
+            "favorite_shops": [1, 2, 3],
+            "favorite_items": [3, 5, 6],
+            "wish_list": [6, 8, 4],
+        },
+    }
+    return User(data)
+

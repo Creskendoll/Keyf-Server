@@ -1,6 +1,7 @@
 import pytest
 import Keyf
 from Keyf.Entities import User
+from helpers import createUser
 
 # https://flask.palletsprojects.com/en/1.1.x/testing/
 # python3 -m pytest -v  : runs tests
@@ -35,25 +36,48 @@ def test_user_zero(client):
 
 
 def test_user_negative(client):
-    assert False
+    user = createUser(-1)
+    resp = client.put("/users/0", user.serialize())
+
+    # TODO: Replace
+    assert b"insert" in resp.data
 
 
 def test_user_id(client):
     COUNT = 5
-    assert False
+    for i in range(COUNT):
+        user = createUser(i)
+        resp = client.put("/users/0", user.serialize())
+
+        # TODO: Replace
+        assert b"insert" in resp.data
 
 
 def test_add_user(client):
+    user = createUser(1)
+    resp = client.put("/users/0", user.serialize())
+
+    # TODO: Replace
     assert False
 
 
 def test_update_user(client):
-    assert False
+    user = createUser(1)
+    resp = client.put("/users/0", user.serialize())
+
+    # TODO: Replace
+    assert b"insert" in resp.data
 
 
 def test_delete_user(client):
+    resp = client.delete("/users/1")
+
+    # TODO: Replace
     assert False
 
 
 def test_delete_non_existent(client):
-    assert False
+    resp = client.delete("/users/9999")
+
+    # TODO: Replace
+    assert resp.status_code == 500
