@@ -25,4 +25,3 @@ from Keyf.Entities import *
 api.add_resource(UsersService, '/users/<user_id>')
 api.add_resource(ShopService, '/shops/<shop_id>')
 api.add_resource(DrinksService, '/drinks/<drink_id>')
-api.add_resource(HomeService, '/')
