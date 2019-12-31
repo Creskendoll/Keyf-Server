@@ -35,14 +35,12 @@ def test_all_shops(client):
 def test_shop_zero(client):
     """Edge case"""
     resp = client.get("/shops/0")
-    # TODO: Check for not found
     assert resp.status_code == 404
 
 
 def test_shop_negative(client):
     "Test negative numbers, -1 will return all the entries"
     resp = client.get("/shops/-5")
-    # TODO: Check for not found
     assert resp.status_code == 404
 
 
@@ -82,7 +80,6 @@ def test_replace_shop(client: FlaskClient):
 def test_delete_shop(client):
     """Test deleting a shop"""
     resp = client.delete("/shops/0")
-    # TODO
     assert b"OK" in resp.data
 
 
