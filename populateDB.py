@@ -16,10 +16,10 @@ with io.open('example_shop.json', mode='r', encoding='utf-8') as shop_file:
         shop_data = json.load(shop_file)
 
         for i in range(15):
-            shop_obj = CoffeeShop(data=shop_data)
+            shop_obj = Shop(data=shop_data)
             shop_obj.id = i
             for i in range(3):
-                drink_obj = Drink(data=drink_data)
+                drink_obj = MenuItem(data=drink_data)
                 drink_obj.id = drink_obj.id + i
                 drinks.replace_one({"id":drink_obj.id}, drink_obj.serialize(), upsert=True)
                 shop_obj.menu['coffees_menu'].append(drink_obj.id)

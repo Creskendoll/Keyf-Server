@@ -5,15 +5,18 @@ from os import getcwd, chdir
 from os.path import abspath
 from platform import system
 
-app = Flask(__name__, static_url_path='', static_folder='public/site',)
+app = Flask(__name__, static_url_path="", static_folder="public/site",)
 
 conn_str_file = "connection_string.txt"
 try:
-    conn_file = open(conn_str_file, 'r')
+    conn_file = open(conn_str_file, "r")
     conn_str = conn_file.read()
     conn_file.close()
 except FileNotFoundError:
-    print("Please create a file named %s containing the connection string." % conn_str_file)
+    print(
+        "Please create a file named %s containing the connection string."
+        % conn_str_file
+    )
     exit()
 
 app.config["MONGO_URI"] = conn_str

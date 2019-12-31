@@ -1,7 +1,7 @@
 from flask_restful import Resource
 from Keyf import mongo
 from flask import request
-from Keyf.Entities import Drink
+from Keyf.Entities import MenuItem
 
 class DrinksService(Resource):
     def get(self, drink_id):
@@ -10,13 +10,13 @@ class DrinksService(Resource):
             cursor = coffeshops.find({})
         else:
             cursor = coffeshops.find({"id": drink_id})    
-        drinks_list = [Drink(data=drink).serialize() for drink in cursor]
+        drinks_list = [MenuItem(data=drink).serialize() for drink in cursor]
 
         return {'drinks': drinks_list}
 
     def put(self, shop_id):
         drinks = mongo.db.drinks
-        drink = Drink(data=request.form.to_dict())
+        drink = MenuItem(data=request.form.to_dict())
         result = drinks.replace_one({"id": drink.id}, drink.serialize(), upsert=True).upserted_id
 
         if result is None:
